@@ -1,0 +1,202 @@
+body{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px;
+}
+.header{
+  font-size: 75px;
+  color: #638475;
+}
+.accordion {
+  background-color: #2C3A34;
+  color: #FFF2C2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #1E1E24;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #1E1E24;
+  display: none;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.main-btn{
+  background-color: #2C3A34;
+  color: #FFF2C2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.main-btn:hover{
+  background-color: #8B94A3;
+}
+
+
+a.main-links:link{
+  text-decoration: none;
+  color: #FFF2C2;
+  width: 100%;
+    /* padding: 18px; */
+}
+
+a.main-links:visited {
+  text-decoration: none;
+    color: #FFF2C2;
+    /* padding: 50px; */
+    width: 100%;
+}
+
+a.main-links:hover {
+  text-decoration: none;
+  color: #FFF2C2;
+  background-color: #8B94A3;
+}
+
+a.main-links:active {
+  text-decoration: none;
+    color: #FFF2C2;
+}
+
+.p-header{
+  font-size: 40px;
+  color: #8B94A3;
+}
+
+a.p-link:link{
+  color:#1E1E24;
+
+}
+
+a.p-link:visited{
+  color:#1E1E24;
+}
+
+a.p-link:hover{
+  color: #638475;
+}
+
+a.names:link{
+  text-decoration: none;
+  padding: 0 18px;
+  background-color: #1E1E24;
+  font-size: 20px;
+  color: #638475;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+a.names:visited{
+  text-decoration: none;
+  padding: 0 18px;
+  background-color: #1E1E24;
+  font-size: 20px;
+  color: #638475;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+a.names:hover{
+  text-decoration: none;
+  padding: 0 18px;
+  background-color: #1E1E24;
+  font-size: 20px;
+  color: #FFF2C2;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+a.names:active{
+  text-decoration: none;
+  padding: 0 18px;
+  background-color: #1E1E24;
+  font-size: 20px;
+  color: #638475;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.names-btn{
+  text-decoration: none;
+  padding: 0 18px;
+  background-color: #1E1E24;
+  font-size: 20px;
+  color: #638475;
+  outline: none;
+  border: none;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#bottom-link{
+  margin-top: 50px;
+}
+
+.edu-header{
+  color: #544A3F;
+  font-size: 30px;
+}
+
+.edu-para{
+  color:#837463;
+}
+
+a#edu-link:link{
+  color: #837463;
+}
+
+
+a#edu-link:visited{
+    color: #837463;
+}
+
+a#edu-link:hover{
+  color: #638475;
+}
+
+#movies-header{
+  margin-top: 50px;
+}
+
+.edu-movie-list{
+  color: #1E1E24;
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
