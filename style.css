@@ -16,6 +16,16 @@ body{
     }
 }
 
+@media only screen and (max-width: 350px) {
+  body{
+    font-size: 25px;
+    margin: 20px;
+    }
+    a.names:link{
+      font-size: 10px;
+    }
+  }
+
   h2{
   font-size: 20px;
   font-weight: bolder;
@@ -75,13 +85,14 @@ p{
   text-align: center;
   border: none;
   outline: none;
-  transition: 0.4s;
+  /* transition: 0.4s; */
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   margin-top: 30px;
 }
+
 .main-btn:hover{
   background-color: #8B94A3;
 }
@@ -90,7 +101,7 @@ p{
 a.main-links:link{
   text-decoration: none;
   color: #FFF2C2;
-  width: 100%;
+  /* width: 100%; */
     /* padding: 18px; */
 }
 
@@ -98,13 +109,13 @@ a.main-links:visited {
   text-decoration: none;
     color: #FFF2C2;
     /* padding: 50px; */
-    width: 100%;
+    /* width: 100%; */
 }
 
 a.main-links:hover {
   text-decoration: none;
-  color: #FFF2C2;
-  background-color: #8B94A3;
+  /* color: #FFF2C2;
+  background-color: #8B94A3; */
 }
 
 a.main-links:active {
@@ -225,3 +236,8 @@ a#edu-link:hover{
         height: 400px;
         background-color: grey;
       }
+
+.org-header{
+  font-size: 20px;
+  margin-top: 40px;
+}
