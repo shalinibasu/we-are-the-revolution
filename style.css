@@ -247,6 +247,23 @@ a#edu-link:hover{
   margin-top: 40px;
 }
 
-a{
-    color: #638475;
+a:link{
+  color: #638475;
+  text-decoration-color: #638475;
+  text-decoration: underline;
+
+}
+
+a:visited{
+  color: #638475;
+  text-decoration-color: #638475;
+  text-decoration: underline;
+
+}
+
+a:hover{
+  color: #638475;
+  text-decoration-color: #638475;
+  text-decoration: underline;
+
 }
