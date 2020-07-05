@@ -14,6 +14,13 @@ img{
   max-width: 288px;
 }
 
+@media only screen and (min-width: 1000px) {
+  body{
+    font-size: 40px;
+    margin: 100px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
   body{
     font-size: 30px;
@@ -266,4 +273,83 @@ a:hover{
   text-decoration-color: #638475;
   text-decoration: underline;
 
+}
+
+#more {
+  display: none;
+}
+
+#myBtn{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-size: 16px;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* outline-color: #638475; */
+  /* outline-style: solid; */
+  border-style: solid;
+  border-color: #638475;
+}
+
+#myBtn::after{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-size: 16px;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* outline-color: #638475; */
+  /* outline-style: solid; */
+  border-style: solid;
+  border-color: #638475;
+  border
+}
+
+#myBtn:hover{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-size: 16px;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* outline-color: #638475; */
+  /* outline-style: solid; */
+  border-style: solid;
+  border-color: #638475;
+  text-decoration: none;
+}
+
+#myBtn:visited{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-size: 16px;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* outline-color: #638475; */
+  /* outline-style: solid; */
+  border-style: solid;
+  border-color: #638475;
+  text-decoration: none;
+}
+
+
+#myBtn:active{
+  color: #638475;
+  background-color: #FFF2C2;
+  font-size: 16px;
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* outline-color: #638475; */
+  /* outline-style: solid; */
+  border-style: solid;
+  border-color: #638475;
+  text-decoration: none;
+}
+
+.date{
+  font-size: 25px;
+  color: #2C3A34;
 }

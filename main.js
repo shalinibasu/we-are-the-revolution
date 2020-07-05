@@ -17,6 +17,22 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
 // function myMap() {
 // var mapProp= {
 //   center:new google.maps.LatLng(51.508742,-0.120850),
