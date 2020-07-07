@@ -65,13 +65,18 @@ p{
   padding: 18px;
   width: 100%;
   text-align: center;
-  border: none;
+  /* border: none; */
   outline: none;
   transition: 0.4s;
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
+}
+
+#names{
+  border: none;
+  outline: none;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -350,6 +355,43 @@ a:hover{
 }
 
 .date{
-  font-size: 25px;
+  font-size: 20px;
   color: #2C3A34;
 }
+
+#date{
+  font-size: 25px;
+  background-color: #FFF2C2;
+  /* outline-style: solid 10px; */
+  border: 2.5px;
+  border-style: solid;
+  border-color: #2C3A34;
+  color: #2C3A34;
+  width:50%;
+  /* margin-left: 500px;
+  margin-right: 500px; */
+  padding: 5px;
+}
+
+#date-panel{
+  font-size: 25px;
+  background-color: #FFF2C2;
+  /* outline-style: solid 10px; */
+  border: 2.5px;
+  /* border-style: solid;
+  border-color: #2C3A34; */
+  color: #2C3A34;
+  /* margin-left: 500px;
+  margin-right: 500px; */
+  /* width: 100%; */
+  /* padding: 5px; */
+  padding: 0px;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+/* .date-btn{
+  width:50%;
+} */
