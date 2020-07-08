@@ -392,6 +392,6 @@ a:hover{
 
 
 
-/* .date-btn{
-  width:50%;
-} */
+#current-date{
+  color: #2C3A34;
+}
