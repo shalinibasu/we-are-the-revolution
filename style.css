@@ -9,6 +9,26 @@ body{
   font-size: 60px;
 }
 
+
+
+.take-action-daily{
+  background-color: #0A1045;
+}
+
+#brown-para{
+  color: #FFFAE3;
+  font-size: 16px;
+
+}
+
+#brown-head{
+  color: #A28F9D;
+}
+
+.misc{
+  font-size: 16px;
+}
+
 img{
   max-height: 432px;
   max-width: 288px;
@@ -225,6 +245,7 @@ a.names:active{
 
 .edu-para{
   color:#837463;
+  /* font-weight: normal; */
 }
 
 a#edu-link:link{
@@ -389,8 +410,6 @@ a:hover{
   display: none;
   overflow: hidden;
 }
-
-
 
 #current-date{
   color: #2C3A34;
